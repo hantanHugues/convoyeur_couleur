@@ -98,9 +98,6 @@ if (r > g && r > b && r > 50) {
 - Sensibilité aux variations de distance.
 - Influence de la luminosité ambiante sur les lectures.
 
-#### Fichier Associé :
-- `objets_0_ou_10_cm.ino`
-
 ---
 
 ### Approche 2 : Amélioration avec Correction Gamma
@@ -277,7 +274,6 @@ color = "Green";
 } else {
 color = "Unknown";
 }
-String color = classifyColor(r, g, b);
 if (color == "Red") {
     // Envoyer consigne au moteur pour diriger vers le bac rouge
 } else if (color == "Blue") {
