@@ -93,7 +93,7 @@ void loop() {
   String color = classifyColor(r / 255.0, g / 255.0, b / 255.0);
   Serial.print("\tColor: "); Serial.println(color);
 
-  delay(500); // Attendre 0.5 seconde avant la prochaine lecture
+  delay(1000); // Attendre 1 seconde avant la prochaine lecture
 }
 
 /*
